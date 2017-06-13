@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+li {
+  display: inline-block; }
+
+body {
+  background: grey; }
+  body .wrapp {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff; }
+    body .wrapp header {
+      height: 125px;
+      margin: 0 auto;
+      border-bottom: 1px solid #cccccc; }
+      body .wrapp header .header-block {
+        width: 970px;
+        margin: 0 auto; }
+        body .wrapp header .header-block .logo-block {
+          float: left;
+          width: 200px;
+          height: 125px;
+          text-align: center; }
+          body .wrapp header .header-block .logo-block .logo {
+            display: block;
+            height: 80px;
+            line-height: 80px;
+            padding-top: 30px; }
+        body .wrapp header .header-block nav {
+          float: right;
+          height: 125px;
+          line-height: 125px; }
+          body .wrapp header .header-block nav .nav-menu a {
+            color: #000;
+            font-weight: 800;
+            padding: 5px; }
+            body .wrapp header .header-block nav .nav-menu a:last-child {
+              padding-right: 0; }
+            body .wrapp header .header-block nav .nav-menu a:hover:not(.active) {
+              color: #999999; }
+            body .wrapp header .header-block nav .nav-menu a.active {
+              color: #999999; }
+    body .wrapp section .content {
+      border-bottom: 1px solid #cccccc; }
+      body .wrapp section .content .first-part-content {
+        width: 820px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 110px 100px 92px 80px; }
+        body .wrapp section .content .first-part-content h1 {
+          font-size: 36px; }
+        body .wrapp section .content .first-part-content p {
+          padding: 35px 0 45px; }
+        body .wrapp section .content .first-part-content #hireMe {
+          background: #000;
+          width: 140px;
+          height: 45px;
+          color: #fff;
+          border: none;
+          outline: none;
+          border-radius: 7px;
+          font-size: 20px; }
+        body .wrapp section .content .first-part-content #hireMe:hover {
+          background: #999999; }
+    body .wrapp section .myProject {
+      width: 970px;
+      height: 505px;
+      margin: 0 auto; }
+      body .wrapp section .myProject h2 {
+        padding: 55px 0 50px; }
+      body .wrapp section .myProject .job {
+        width: 300px;
+        height: 278px;
+        float: left;
+        margin-right: 30px;
+        border: 1px solid #ccc;
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px; }
+        body .wrapp section .myProject .job .grey-block {
+          height: 200px;
+          background: #ccc; }
+        body .wrapp section .myProject .job:last-child {
+          margin-right: 0; }
+        body .wrapp section .myProject .job .job-title {
+          text-align: center; }
+          body .wrapp section .myProject .job .job-title h3 {
+            padding: 20px 0 10px; }
+          body .wrapp section .myProject .job .job-title p {
+            font-style: italic;
+            font-size: 12px;
+            padding-bottom: 20px; }
+    body .wrapp footer .about-block {
+      background: #e5e5e5; }
+      body .wrapp footer .about-block .about-article {
+        width: 970px;
+        height: 485px;
+        margin: 0 auto; }
+        body .wrapp footer .about-block .about-article article {
+          width: 450px;
+          float: left;
+          padding-top: 50px; }
+          body .wrapp footer .about-block .about-article article h2 {
+            padding-bottom: 50px; }
+          body .wrapp footer .about-block .about-article article p {
+            padding-bottom: 45px; }
+        body .wrapp footer .about-block .about-article aside {
+          width: 455px;
+          float: right;
+          padding-top: 50px; }
+          body .wrapp footer .about-block .about-article aside h2 {
+            padding-bottom: 50px; }
+          body .wrapp footer .about-block .about-article aside .news {
+            height: 130px;
+            border-bottom: 1px solid #ccc; }
+            body .wrapp footer .about-block .about-article aside .news h3 {
+              margin-bottom: 20px; }
+            body .wrapp footer .about-block .about-article aside .news .newsImg {
+              width: 150px;
+              height: 100px;
+              background: #ccc;
+              float: left;
+              margin: 0 30px 30px 0; }
+            body .wrapp footer .about-block .about-article aside .news:last-child {
+              border-bottom: none; }
+              body .wrapp footer .about-block .about-article aside .news:last-child h3 {
+                padding-top: 30px; }
+              body .wrapp footer .about-block .about-article aside .news:last-child .newsImg {
+                margin: 30px 30px 0 0; }
+            body .wrapp footer .about-block .about-article aside .news .red {
+              color: #ce3939; }
+            body .wrapp footer .about-block .about-article aside .news .grey {
+              color: #666666; }
+    body .wrapp footer .last-block {
+      height: 280px;
+      width: 970px;
+      font-weight: 800;
+      margin: 0 auto; }
+      body .wrapp footer .last-block p {
+        float: left;
+        padding-top: 30px; }
+        body .wrapp footer .last-block p span {
+          color: #ce3939; }
+      body .wrapp footer .last-block ul {
+        float: right;
+        padding-top: 30px; }
+        body .wrapp footer .last-block ul a {
+          color: #000; }
+          body .wrapp footer .last-block ul a:hover:not(.page) {
+            color: #099999; }
+          body .wrapp footer .last-block ul a.page {
+            color: #099999; }
+    body .wrapp .header-block {
+      content: "";
+      display: table; }
+
+/*# sourceMappingURL=style.css.map */
